@@ -15,6 +15,9 @@ body {
 
 header {
     margin-bottom: 1rem;
+    display: grid;
+    padding: 20px;
+    border: 1px;
 }
 
 #nav-header {
@@ -24,7 +27,7 @@ header {
 }
 
 nav ul {
-    display: none;
+    display: flex;
     list-style: none;
     background-color: #333;
     padding: 1rem;
